@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int fib1=0,fib2=1,fib3=0,counter=0;
+    while(counter<10)
+    {
+        fib3=fib1+fib2;
+        fib1=fib2;
+        fib2=fib3;
+        counter+=1;
+        printf("%d.Fibonacci numbers %d\n",counter,fib3);
+    }
+    return 0;
+}
