@@ -1,5 +1,5 @@
 /* a= 1 ile 100 arasındaki sayıların herbirinin karesinin toplamıyla*/
-/* b=1 ile 100 arasındaki satıyılarının tamammımın karesi*/
+/* b= 1 ile 100 arasındaki satıyılarının tamammımın karesi*/
 /*c =b-a */
 
 #include <stdio.h>
