@@ -1,0 +1,24 @@
+/* 1 ile 20 arasındaki sayıları en küçük ortan bölen katı */
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x=2,y;
+    while(1)
+    {
+    for(y=2; y<=20; y++)
+    {
+        if(x&y!=0)
+            break ;
+        if(y==20)
+            goto cıkıs;
+    }
+    x++;
+    }
+    cıkıs ;
+    printf("%d",x);
+    return 0;
+}
